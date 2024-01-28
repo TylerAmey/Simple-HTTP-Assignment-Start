@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "description": "Simple http assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerAmey/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Tyler Amey",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/TylerAmey/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/TylerAmey/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
